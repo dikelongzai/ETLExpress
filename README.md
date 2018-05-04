@@ -1,6 +1,6 @@
 # ETLExpress
-随着大数据技术的发展,近几年接触了不同业务需求的ETL,积累了一些心得，数据的ETL大概分为以下几种类型\n
-1.mssql/oracle/mysql->hdfs/hive/hbase 业务数据库到大数据集群的ETL\n
+随着大数据技术的发展,近几年接触了不同业务需求的ETL,积累了一些心得，数据的ETL大概分为以下几种类型
+1.mssql/oracle/mysql->hdfs/hive/hbase 业务数据库到大数据集群的ETL
 2.MQ/kafka->hdfs/hbase 消息队列到大数据集群的ETL
 3.hdfs/hive->hbase  hbase->hdfs/hive 大数据集群内部的ETL设计到平时的数据抽取,分析统计
 4.hfs/hive/hbase->mssql/oracle/mysql 数据成果输出报表
