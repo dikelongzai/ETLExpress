@@ -10,6 +10,7 @@ import java.util.List;
  * Created by houlongbin on 2016/12/19.
  */
 public class DateUtil {
+
     private static ThreadLocal<SimpleDateFormat> dateFormatter1 = new ThreadLocal();
 
     private static ThreadLocal<SimpleDateFormat> dateFormatter2 = new ThreadLocal();
