@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NettyRPC" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/SSHExecute" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/server" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/spark-extract" vcs="svn" />
+  </component>
+</project>

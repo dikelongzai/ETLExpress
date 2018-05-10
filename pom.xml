@@ -45,8 +45,10 @@ spark计算完持久化到hdfs回调把hdfs地址和requestId返回给Server
         <commons-logging.version>1.2</commons-logging.version>
         <maven-antrun.version>1.8</maven-antrun.version>
         <fast-json.version>1.2.1</fast-json.version>
+        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+
         <org.springframework.version>1.4.0.RELEASE</org.springframework.version>
-        <org.springframework.aop.version>4.1.1.RELEASE</org.springframework.aop.version>
+        <org.springframework.aop.version>4.3.2.RELEASE</org.springframework.aop.version>
         <commons-codec.version>1.9</commons-codec.version>
         <junit.version>4.12</junit.version>
         <com.oracle.version>11.2.0.1.0</com.oracle.version>
@@ -220,6 +222,11 @@ spark计算完持久化到hdfs回调把hdfs地址和requestId返回给Server
                 <groupId>com.dyuproject.protostuff</groupId>
                 <artifactId>protostuff-runtime</artifactId>
                 <version>${com.dyuproject.protostuff.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
